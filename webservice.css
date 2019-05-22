@@ -1,0 +1,49 @@
+﻿
+* { margin: 0px ; padding: 0px ; }
+header, body, footer { color: white;font-size: 16px; font-family: 굴림,나눔고딕,궁서체,'Times New Roman',serif; width: 100%;}
+header, footer { text-align : center ; }
+body { margin: auto; background-color: black;}
+footer { position: fixed; bottom: 0px; }
+
+h1 { padding: 15px; font-size: 50px ; color:black;
+	height: 180px;  }
+h2 { font-size: 17px; color: white; }
+h3 { margin: 9px; font-size: 50px; color: skyblue; text-shadow: 4px 4px 7px blue; }
+h1 { background-image: url(img/h1.jpg); background-repeat: repeat-x; }
+html { 
+	background: url(img/background.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  }
+img { padding: 3px; }
+
+nav { margin: 5px; float: right; }
+nav > span > a { font-style: bold; margin: 0px ; padding: 3px; border: 2px solid black; 
+	             float: right; text-decoration: none; background: gray; color: white; }
+nav > span > a:hover { background: #ff00ff;}
+@media only screen and (min-width: 321px) and (orientation: landscape) {
+	section { width: 80%; float: left; }
+	aside { width: 20%; text-align: center; float: right; }
+	footer { clear: both; }
+}
+.content  { clear: both; }
+.section1 ul li { list-style-position: inside; list-style-image: url("li.jpg"); }
+th{color:black}
+#profile{ width: 300px; height: 400px; float: left;}
+#start{font-size: 20px;}
+#gameintro{width:50px; height:50px;}
+#gameintro2{width:100px; height:50px;}
+#gameready2{width:400px; height:250px;}
+#gameready3{width:400px; height:250px;}
+#info{width: 750px; height: 430px;}
+.section2{clear: both;}
+.gameimg{width: 1450px; height: 300px; position: absolute; float: right;}
+
+#year-table { table-layout: auto; width: 80%; border-collapse: seperate; }
+#year-table thead { background: #E4F2D0; }
+#logo { position: fixed; top:130px; left: 250px; opacity: 0.3; } 
+
+
+video { margin: 5px; width: 300px; height: 200px; }
